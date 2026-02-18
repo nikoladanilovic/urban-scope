@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="Auth/Auth.csproj" Id="eb7ccff7-8da3-4b30-926f-b8a7e935475e" />
+  <Project Path="Data/Data.csproj" Id="5ed322ec-2f1a-495c-a6a8-28aebe32c53b" />
+  <Project Path="DTOs/DTOs.csproj" Id="b9cf19c4-b120-46a7-84eb-92b647774a10" />
+  <Project Path="Entities/Entities.csproj" Id="ad32fae0-6fc2-4f5d-8cd0-b01938032164" />
+  <Project Path="UrbanScope/UrbanScope.csproj" />
+  <Project Path="UrbanScopeRepositories/UrbanScopeRepositories.csproj" Id="9483c9da-d08b-44fe-aa49-0de78cdb9429" />
+  <Project Path="UrbanScopeRepositoriesCommon/UrbanScopeRepositoriesCommon.csproj" Id="205cd938-c9fb-47d6-a82c-275a4e5ce756" />
+  <Project Path="UrbanScopeService/UrbanScopeService.csproj" Id="82dca2ea-43df-423a-88ef-0426807f352d" />
+  <Project Path="UrbanScopeServiceCommon/UrbanScopeServiceCommon.csproj" Id="67f2ba94-edb4-4970-bf53-e7d4941f1f2a" />
+</Solution>
