@@ -19,5 +19,6 @@ namespace UrbanScopeRepositoriesCommon
 
         Task<bool> ExistsAsync(Guid id, CancellationToken ct = default);
         Task<int> SaveChangesAsync(CancellationToken ct = default);
+        Task<Event?> GetTrackedByIdAsync(Guid id, CancellationToken ct = default);
     }
 }
