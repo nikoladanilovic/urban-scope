@@ -32,6 +32,9 @@ namespace Data
             modelBuilder.Entity<Event>()
                 .Property(e => e.EventDate)
                 .HasColumnType("timestamp without time zone");
+            modelBuilder.Entity<MarketplaceItem>()
+                .Property(m => m.CreatedAt)
+                .HasColumnType("timestamp without time zone");
         }
     }
 }
