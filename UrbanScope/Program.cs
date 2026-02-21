@@ -68,6 +68,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<IMarketplaceItemRepository, MarketplaceItemRepository>();
+builder.Services.AddScoped<IMarketplaceItemService, MarketplaceItemService>();
 
 var app = builder.Build();
 
